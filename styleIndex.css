@@ -1,0 +1,187 @@
+@font-face
+{
+	font-family: Coco;
+	src: url(fonts/CocoLight.ttf);	
+}
+@font-face
+{
+	font-family: Cocomat;
+	src: url(fonts/CocomatLight.ttf);	
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+a
+{
+	outline: none;
+}
+html
+{
+	height: 100%;
+}
+body
+{
+	display: table;
+	height: 100%;
+	width: 100%;
+	background: url(images/back2.jpg) #463fb1 no-repeat fixed;
+	background-size: 100% 100%;
+}
+article
+{
+	display: table;
+	height: 100%;
+	width: 60vw;
+	margin: 0 auto;
+}
+.box
+{
+	display: table-cell;
+	height: 100%;
+}
+.content
+{
+	width: 100%;
+	text-align: center;
+	box-shadow: 0 0 5px #000;
+}
+.content h1
+{
+	font-family: Coco;
+}
+.content p
+{
+	font-family: Coco;
+	margin: 1vh 0;
+	box-shadow: 0 0 5px #000;
+}
+.description
+{
+	box-shadow: none;
+	background: none;
+}
+div.login, div.auth
+{
+	width: 60%;
+	margin: 5vh auto;
+}
+div.login
+{
+	display: none;
+}
+.login p
+{
+	margin-bottom: 1vh;
+}
+form.auth
+{
+	width: 100%;
+}
+form.auth p
+{
+	box-shadow: none;
+}
+form.auth input
+{
+	width: 40%;
+	margin-right: 3vw;
+}
+.field
+{
+	clear: both;
+	text-align: right;
+}
+label
+{
+	float: left;
+	margin-left: 3vw;
+	color: white;
+	text-shadow: -2px 2px 0.2px #000;
+}
+form.auth input[type=email], .auth input[type=password],.auth input[type=text]
+{
+	font-size: 16pt;
+	border: none;
+	box-shadow: 0 0 2px #000;
+	font-family: Bodoni;
+	color: white;
+	text-shadow: -1px 1.5px 0.5px #000;
+	outline: none;
+}
+input:focus{
+	outline: none;
+	border: none;
+	box-shadow: 0 0 4px #000;
+}
+form.auth input[type=submit], form.auth input[type=button], form.login input[type=submit], form.login input[type=button]
+{
+	font-family: Coco;
+	margin: 1vh 1vw;
+	border: none;
+	font-size: 16pt;
+	box-shadow: 0 0 2px #000000;
+	font-family: Bodoni;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	padding: 0.23vh 0.5vw;
+	color: white;
+	text-shadow: -2px 1px 0.5px #000
+}
+form.auth input[type=submit]:active, form.auth input[type=button]:active, form.login input[type=submit]:active, form.login input[type=button]:active
+{
+	box-shadow: inset 0 0 1px #000000;
+	border: none;
+}
+form.login p
+{
+	box-shadow: none;	
+}
+form.login input[type=email], .login input[type=password], .login input[type=text]
+{
+	font-size: 16pt;
+	border: none;
+	box-shadow: 0 0 2px #000;
+	font-family: Bodoni;
+	margin-right: 1vw;
+	margin-bottom: 0.5vw;
+}
+form.login
+{
+	width: 100%;
+}
+footer
+{
+	display: table-row;
+	height: 5vh;
+	background: #fed140;
+	box-shadow: 0 0 10px #000000;
+}
+.footer, .header
+{
+	padding: 0.5vh 0.5vw;
+}
+.header p
+{
+	color: #000;
+	font-size: 28pt;
+	float: left;
+}
+#checkingNickName, #checkingEmail, #checkingPassword, #checkingLogin
+{
+	color: rgb(200,3,0);
+	font-size: 14px;
+	text-align: right;
+	margin-right: 3vw; 
+	display: none;
+	font-family: Bodoni;
+	text-shadow: -1px 2px 5px #fff;
+}
+input[type=email], input[type=password], input[type=text]{
+	background: inherit;
+}
+input[type=submit], input[type=button]{
+	background: inherit;
+}

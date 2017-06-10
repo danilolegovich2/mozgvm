@@ -1,0 +1,201 @@
+@font-face
+{
+	font-family: Coco;
+	src: url(../fonts/CocoLight.ttf);
+}
+*
+{
+  font-family: Coco;
+}
+#parent{
+  height: 80vh;
+  width: 56.5vw;
+}
+#wrapper{
+  width: 102.75%;
+}
+#load{
+  height: 10px;
+  color: lawngreen;
+  text-shadow: 0 0 5px #000;
+}
+.personal
+{ 
+  display: block;
+  height: auto;
+}
+.security
+{
+  display: none;
+  height: auto;
+}
+.style
+{
+  display: none;
+  padding: 10px;
+}
+.style>#parent>#wrapper>div.row{
+  margin-left: 5px;
+  margin-bottom: 3vh;
+}
+div.left{
+  display: table-cell;
+}
+div.right{
+  display: table-cell;
+}
+.content div
+{
+  margin-top: 1vh;
+}
+.content p
+{
+  margin-top: 1vh;
+  text-align: center;
+}
+.content a
+{
+  padding: 5px;
+}
+.content a
+{
+  cursor: pointer;
+  margin: 5px;
+}
+#imageUser{
+  height: 22vh;
+  width: auto;
+  margin-bottom: 1vh;
+  position: relative;
+}
+#imageUser>img{
+  opacity: 0.5;
+}
+#imageUser>span{
+  position: absolute;
+  margin: -20% 20%;
+  color: white;
+  text-shadow: 0 0 4px #000;
+}
+img
+{
+  display: block;
+  width: auto;
+  height: 22vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+#description
+{
+  text-align: justify;
+  height: 20vh;
+  background: inherit;
+  box-shadow: 0 0 5px #000;
+  width: 100%;
+  border: none;
+  overflow: auto;
+  clear: left;
+  margin-bottom: 1vh; 
+}
+#name
+{
+  background: inherit;
+  border: none;
+  box-shadow: 0 0 2px #000;
+  padding: 1vh 1vw;
+  width: 10vw;
+  font-size: 14pt;
+  margin-bottom: 1vh;
+}
+.field
+{
+  clear: both;
+  text-align: right;
+}
+label
+{
+  float: left;
+}
+.editPassword
+{
+  width: 85%;
+  padding: 5px;
+}
+.editPassword input[type=password]
+{
+  background: inherit;
+  border: none;
+  box-shadow: 0 0 2px #000;
+  font-size: 16pt; 
+}
+label
+{
+  font-size: 16pt;
+}
+input[type=submit]
+{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border: none;
+  padding: 5px;
+  text-shadow: 0 0 4px #000;
+  cursor: pointer;
+  font-size: 12pt;
+  color: white;
+}
+input[type=button]
+{
+  margin-top: 1vh;
+  border: none;
+  padding: 5px;
+  /*box-shadow: 0 0 2px #000;*/
+  cursor: pointer;
+  font-size: 12pt;
+}
+#checkingNickName
+{
+  color: rgb(124,3,0);
+  font-size: 14px;
+  margin-right: 3vw;
+  display: none;
+  font-family: Bodoni;
+  text-align: left;
+  margin-bottom: 1vh;
+}
+.loadPhoto{
+  text-align: center;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  font-size: 1em;
+  height: 2em;
+  line-height: 2em;
+  float: right;
+  padding: 2px;
+}
+.loadPhoto .button, .loadPhoto > mark, .loadPhoto input[type=file]{
+  display: block;
+  cursor: pointer;
+}
+.loadPhoto .button{
+  float: right;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: auto;
+  height: 100%;
+  text-align: center;
+}
+.loadPhoto input[type=file]{
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+#backgroundColor{
+  color: white;
+  text-shadow: 0 2px 2px #000;
+}
+#output{
+  background: inherit;
+  margin: 5px;
+  color: darkgreen;
+}

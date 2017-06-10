@@ -1,0 +1,176 @@
+li{
+	padding: 1vh 0.5vw;
+}
+ul{
+	list-style: none;
+	margin-left: 1vw; 
+	width: 12vw;
+}
+#buttonAdd{
+	padding: 1vh 0.5vw;
+	margin-left: 1vw; 
+}
+#parentAddInter{
+	display: none;
+	padding: 1vh 0.5vw;
+	margin-left: 1vw;
+	box-shadow: 0 0 4px #000;
+}
+#parentAddInter>div:first-child{
+	box-shadow: 0 0 4px #000;
+}
+.addInterlocutor{
+	height: auto;
+	max-height: 45vh;	
+}
+.addInterlocutor>p{
+	padding: 1vh 0.5vw;
+	text-shadow: 0 0 4px #fff;
+}
+#parent{
+	width: 100%;
+	height: 59vh;
+}
+#wrapper{
+	height: 99.7%;
+	width: 102.5%;
+	box-shadow: 0 0 4px #fff;
+}
+.sendMess{
+	height: 25vh;
+	width: 84%
+}
+.sendMess>div:first-child{
+	box-shadow: 0 0 4px #000;
+	height: 27%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.sendMess>div:last-child{
+	height: 75%;
+	width: 100%;
+	box-shadow: 0 0 4px #fff;
+	overflow: hidden;
+}
+#btnSend{
+	float:right;
+	padding: 0.5vh 0.5vw;
+	border-radius: 10px;
+	position: relative;
+	top: 84.5vh;
+}
+#btnSend:hover{
+	box-shadow: 0 0 4px #fff;
+}
+#btnSend:active{
+	box-shadow: 0 0 2px #fff;
+}
+#message{
+	margin: 0 auto;
+	height: 100%;
+	width: 101.5%;
+	box-shadow: 0 0 4px green;
+	background: inherit;
+	border:none;
+	overflow-y: scroll;
+	font-size: 16px;
+	font-family: Bodoni;
+	text-shadow: 0 0 10px #fff;
+	padding-right: 1vw;
+}
+p.sender{
+	color: white;
+	text-shadow: 0 0 4px #000;
+	box-shadow:0px 4px 8px -3px #000;
+	margin-bottom: 0.5vh;
+}
+p.message>i{
+	float: right;
+	font-size: 11px;
+	color: #cbcbcb;
+	text-shadow: 0 0 4px #000;
+}
+p.message{
+	margin-bottom: 1vh;
+	text-shadow: 0 0 4px #fff;
+}
+#wrapper>div:last-child{
+  margin-bottom: 30vh;
+}
+.loadImage{
+	text-align: center;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 1vw;
+	height: 1.5vh;
+	position: absolute;
+	left: 75vw;
+	top: 69vh;
+	padding: 5px;
+}
+.loadImage:active{
+	box-shadow: inset 0 0 1px #000000;
+}
+.loadImage .button, .loadImage input[type=file]{
+	display: block;
+	cursor: pointer;
+}
+.loadImage .button{
+	float: right;
+	box-sizing: border-box;
+	width: auto;
+	height: 100%;
+	width: 100%;
+}
+.loadImage > mark{
+	background: transparent;
+	padding-left: 1em;
+	text-align: center;
+}
+.loadImage input[type=file]{
+	position: absolute;
+	top: 0;
+	opacity: 0;
+}
+.attachedPhoto{
+	background-size: 100% auto;
+	height: 100%;
+	width: auto;
+	float: left;
+	text-align: center;	
+	position: relative;
+}
+.attachedPhoto>img:first-child{
+	height: 100%;
+	width: auto;
+	opacity: 0.5;	
+}
+.attachedPhoto>span{
+	position: absolute;
+	opacity: 1;
+	margin: 25% -72%;
+	color: white;
+	text-shadow: 0 0 4px #000;
+}
+#wrapper>div>.attachedPhotoM{
+	height: 15vh;	
+	width: auto;
+}
+#wrapper>div>.attachedPhotoM>img{
+	opacity: 1;
+	height: 100%;
+	margin-left: 0.5vw;
+	cursor:pointer;
+}
+.spanDel{
+	position: absolute;
+	height: 25%;
+	cursor: pointer;
+	opacity: 0.4;
+	right: 2%;
+	top: 1%;
+}
+.spanDel:hover{
+	opacity: 1;
+}

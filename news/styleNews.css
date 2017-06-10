@@ -1,0 +1,151 @@
+@font-face
+{
+	font-family: Coco;
+	src: url(../fonts/CocoLight.ttf);
+}
+header,.header,.nameArticleNews,.loginUser,.buttonAll,.sidebar
+{
+    font-family: Coco;
+}
+.loginUser{
+    color: white;
+    text-shadow: 0 0 2px #000;
+    padding: 0 1vw;
+}
+.nameArticleNews, #descriptionComment>span
+{
+    color: white;
+    text-shadow: 0 0 2px #000;
+    font-size: 16pt;
+    padding: 0 1vw;
+}
+.textArticleNews{
+    font-size: 12pt;
+    text-shadow: 0 0 13px #fff;
+    padding: 0 1vw;
+    padding-bottom: 1vh;
+}
+#commentNews{
+    box-shadow: 0 0 4px #000;
+    height: 20px;
+    padding: 0.5vh 0.4vw;
+    text-align: right;
+}
+article{
+    width: 95vw;
+}
+.content{
+    width: 90%;
+    padding: 0;
+}
+.news{
+    width: 65%;
+    vertical-align: top;
+}
+.sidebar{
+    width: 5%;
+}
+#parent{
+    width: 100%;
+}
+#wrapper{
+    width: 102.5%;
+}
+#btnComment{
+    margin-top: 0px;
+    background: url('../images/comment.png');
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+    float: right;
+    border-radius: 8.5px;
+    cursor: pointer;
+    opacity: 0.7;
+    box-shadow: inset 0 0 10px #2A7200;
+}
+#btnComment:active{
+    box-shadow: inset 0 0 4px #2A7200;
+}
+#btnComment:hover{
+    opacity: 1;
+}
+.divComment{
+    box-shadow: 0 0 4px #000;
+    width: 35%;
+    opacity: 0;
+    overflow: hidden;
+}
+#wrapperCom{
+    margin: 0 auto;
+    overflow-y: scroll;
+    height: 75%;
+    width: 105%;
+    box-shadow: 0 0 4px #fff;
+}
+#writeCom{
+    box-shadow: 0 0 4px #000;
+    height: 25%;
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#write{
+    height: 76%;
+    width: 100.4%;
+    border: none;
+    box-shadow: 0 0 4px #000;
+    background: inherit;
+    overflow-y: scroll;
+	padding: 5px 10px;
+	font-family: Bodoni;
+	color: #fff;
+	text-shadow: 0 0 4px #000;
+}
+#writeCom>input{
+    float: right;
+    font-size: 14px;
+    padding: 7px;
+    margin: 3px;
+    color: white;
+    text-shadow: 0 0 4px #000;
+}
+#writeCom>input:hover{
+    box-shadow: 0 0 4px #fff;
+}
+#writeCom>input:active{
+    box-shadow: 0 0 2px #fff;
+}
+#comment{
+    margin: 1vh 1vw;
+    width: 90%;
+}
+#login{
+    padding-bottom: 0.5vh;
+    color: white;
+    text-shadow: 0 0 4px #000;
+}
+#text{
+    text-shadow: 0 0 10px #fff;
+}
+#datetime{
+    font-size: 11px;
+    text-align: right;
+    color: #cbcbcb;
+    text-shadow: 0 0 4px #000;
+}
+.timePublish,.datePublish{
+    float: left;
+    margin-right: 1vw;
+    font-size: 11pt;
+    color: white;
+    text-shadow: 0 0 4px #000;
+}
+.menu>li{
+    text-shadow: 0 0 4px #000;
+}
+.countCom{
+    float: right;
+    margin-left: 0.5vw; 
+    color: white;
+    text-shadow: 0 0 7px #000
+}

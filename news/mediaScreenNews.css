@@ -1,0 +1,47 @@
+@media (max-width: 980px)
+{
+  article
+  {
+    display: table;
+    height: 100%;
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+}
+@media (max-width: 360px)
+{
+  article
+  {
+    display: table;
+    height: 100%;
+    width: 94%;
+    margin: 0 auto;
+  }
+  .header p
+  {
+    color: #000;
+    /*text-shadow: 0 0 5px #000000;*/
+    font-size: 15pt;
+    float: left;
+    font-family: Coco;
+  }
+  .login
+  {
+    width: 80px;
+    font-size: 10pt;
+  }
+  .menu
+  { 
+    position: relative;
+    margin-top: 1vh;
+    list-style: none;	
+  }
+  .menu li
+  {
+    font-size: 10pt;
+    margin: 0.5vh 0.5vw;
+    background: #fed13f;
+    padding: 1px;
+  }
+}
